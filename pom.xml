@@ -20,26 +20,42 @@
 
   <dependencies>
 
+<!-- Selenium -->
  <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
         <version>3.141.59</version>
     </dependency>
     
+    <!--  testng -->
     <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.4.0</version>
     <scope>compile</scope>
      </dependency>
+		
+	<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+   <dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.2</version>
+   </dependency>
+   
+ <!-- FileUtils io dependency -->  
+   <dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>1.3.2</version>
+</dependency>
 
-	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>3.17</version>
-		</dependency>
-
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.0.0</version>
+</dependency>
+		
   </dependencies>
   
   <build>

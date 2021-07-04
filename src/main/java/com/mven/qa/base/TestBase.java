@@ -1,11 +1,15 @@
 package com.mven.qa.base;   //package
 
+import java.io.File;
 import java.io.FileInputStream;   // import statements
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -57,13 +61,19 @@ public class TestBase {   //Base class
   		
   		driver.manage().window().maximize();      //maximizing the window
   		driver.manage().deleteAllCookies();         //delete all cookies
+  		
   		//waits
   		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);   
-  		driver.manage().timeouts().implicitlyWait(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+  		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
   		
   		driver.get(prop.getProperty("url"));   //loading url
   		
+  	
   		
+  			
   	}
+      
+    
+      
 
 }

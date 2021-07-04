@@ -1,161 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="6" passed="5">
+<testng-results skipped="0" failed="4" ignored="0" total="11" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="110449" started-at="2021-06-28T19:33:38 IST" finished-at="2021-06-28T19:35:29 IST">
+  <suite name="Suite" duration-ms="80058" started-at="2021-07-02T15:39:41 IST" finished-at="2021-07-02T15:41:01 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="110449" started-at="2021-06-28T19:33:38 IST" finished-at="2021-06-28T19:35:29 IST">
+    <test name="Test" duration-ms="80058" started-at="2021-07-02T15:39:41 IST" finished-at="2021-07-02T15:41:01 IST">
       <class name="com.mven.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="setUp" is-config="true" duration-ms="16793" started-at="2021-06-28T19:33:38 IST" finished-at="2021-06-28T19:33:55 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="setUp" is-config="true" duration-ms="5184" started-at="2021-07-02T15:39:41 IST" finished-at="2021-07-02T15:39:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="mainLoginButtonClicked()[pri:1, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="mainLoginButtonClicked" duration-ms="438" started-at="2021-06-28T19:33:55 IST" finished-at="2021-06-28T19:33:56 IST">
+        <test-method status="PASS" signature="mainLoginButtonClicked()[pri:1, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="mainLoginButtonClicked" duration-ms="623" started-at="2021-07-02T15:39:46 IST" finished-at="2021-07-02T15:39:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainLoginButtonClicked -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="closeDriver" is-config="true" duration-ms="1101" started-at="2021-06-28T19:33:56 IST" finished-at="2021-06-28T19:33:57 IST">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="closeDriver" is-config="true" duration-ms="660" started-at="2021-07-02T15:39:47 IST" finished-at="2021-07-02T15:39:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="setUp" is-config="true" duration-ms="16041" started-at="2021-06-28T19:33:57 IST" finished-at="2021-06-28T19:34:13 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="setUp" is-config="true" duration-ms="5185" started-at="2021-07-02T15:39:47 IST" finished-at="2021-07-02T15:39:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:2, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="loginPageTitleTest" duration-ms="12" started-at="2021-06-28T19:34:13 IST" finished-at="2021-06-28T19:34:13 IST">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:2, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="loginPageTitleTest" duration-ms="297" started-at="2021-07-02T15:39:53 IST" finished-at="2021-07-02T15:39:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="closeDriver" is-config="true" duration-ms="691" started-at="2021-06-28T19:34:13 IST" finished-at="2021-06-28T19:34:13 IST">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="closeDriver" is-config="true" duration-ms="660" started-at="2021-07-02T15:39:53 IST" finished-at="2021-07-02T15:39:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="setUp" is-config="true" duration-ms="14597" started-at="2021-06-28T19:34:13 IST" finished-at="2021-06-28T19:34:28 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="setUp" is-config="true" duration-ms="5188" started-at="2021-07-02T15:39:54 IST" finished-at="2021-07-02T15:39:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateLogoImage()[pri:3, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="validateLogoImage" duration-ms="86" started-at="2021-06-28T19:34:28 IST" finished-at="2021-06-28T19:34:28 IST">
+        <test-method status="PASS" signature="validateLogoImage()[pri:3, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="validateLogoImage" duration-ms="296" started-at="2021-07-02T15:39:59 IST" finished-at="2021-07-02T15:39:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogoImage -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="closeDriver" is-config="true" duration-ms="582" started-at="2021-06-28T19:34:28 IST" finished-at="2021-06-28T19:34:29 IST">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="closeDriver" is-config="true" duration-ms="620" started-at="2021-07-02T15:39:59 IST" finished-at="2021-07-02T15:40:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="setUp" is-config="true" duration-ms="11562" started-at="2021-06-28T19:34:29 IST" finished-at="2021-06-28T19:34:40 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="setUp" is-config="true" duration-ms="4707" started-at="2021-07-02T15:40:00 IST" finished-at="2021-07-02T15:40:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="incorrectLoginCredentials()[pri:4, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="incorrectLoginCredentials" duration-ms="270" started-at="2021-06-28T19:34:40 IST" finished-at="2021-06-28T19:34:41 IST">
+        <test-method status="PASS" signature="incorrectLoginCredentials()[pri:4, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="incorrectLoginCredentials" duration-ms="271" started-at="2021-07-02T15:40:05 IST" finished-at="2021-07-02T15:40:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrectLoginCredentials -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="closeDriver" is-config="true" duration-ms="575" started-at="2021-06-28T19:34:41 IST" finished-at="2021-06-28T19:34:41 IST">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="closeDriver" is-config="true" duration-ms="617" started-at="2021-07-02T15:40:05 IST" finished-at="2021-07-02T15:40:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="setUp" is-config="true" duration-ms="11704" started-at="2021-06-28T19:34:41 IST" finished-at="2021-06-28T19:34:53 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="setUp" is-config="true" duration-ms="5381" started-at="2021-07-02T15:40:06 IST" finished-at="2021-07-02T15:40:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="moveCursorToElectronics()[pri:5, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="moveCursorToElectronics" duration-ms="1089" started-at="2021-06-28T19:34:53 IST" finished-at="2021-06-28T19:34:54 IST">
+        <test-method status="PASS" signature="moveCursorToElectronics()[pri:5, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="moveCursorToElectronics" duration-ms="2447" started-at="2021-07-02T15:40:11 IST" finished-at="2021-07-02T15:40:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveCursorToElectronics -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="closeDriver" is-config="true" duration-ms="647" started-at="2021-06-28T19:34:54 IST" finished-at="2021-06-28T19:34:55 IST">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="closeDriver" is-config="true" duration-ms="608" started-at="2021-07-02T15:40:14 IST" finished-at="2021-07-02T15:40:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="setUp" is-config="true" duration-ms="34200" started-at="2021-06-28T19:34:55 IST" finished-at="2021-06-28T19:35:29 IST">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: -0.000
-  (Session info: chrome=91.0.4472.114)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-1JFAMJF', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b8d5ba93e4bb14de14fe0d176b78720c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.000
-  (Session info: chrome=91.0.4472.114)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-1JFAMJF', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b8d5ba93e4bb14de14fe0d176b78720c
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at com.mven.qa.base.TestBase.initialization(TestBase.java:64)
-at com.mven.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:26)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="setUp" is-config="true" duration-ms="4892" started-at="2021-07-02T15:40:14 IST" finished-at="2021-07-02T15:40:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="validateTheSearchBar()[pri:6, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="validateTheSearchBar" duration-ms="0" started-at="2021-06-28T19:35:29 IST" finished-at="2021-06-28T19:35:29 IST">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method status="PASS" signature="validateTheSearchBar()[pri:6, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="validateTheSearchBar" duration-ms="2344" started-at="2021-07-02T15:40:19 IST" finished-at="2021-07-02T15:40:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheSearchBar -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="closeDriver" is-config="true" duration-ms="671" started-at="2021-07-02T15:40:22 IST" finished-at="2021-07-02T15:40:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="setUp" is-config="true" duration-ms="5615" started-at="2021-07-02T15:40:22 IST" finished-at="2021-07-02T15:40:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="travelFlightsClick()[pri:7, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="travelFlightsClick" duration-ms="2362" started-at="2021-07-02T15:40:28 IST" finished-at="2021-07-02T15:40:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelFlightsClick -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="closeDriver" is-config="true" duration-ms="748" started-at="2021-07-02T15:40:31 IST" finished-at="2021-07-02T15:40:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="setUp" is-config="true" duration-ms="5019" started-at="2021-07-02T15:40:31 IST" finished-at="2021-07-02T15:40:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="babiesToysPageValidation()[pri:8, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="babiesToysPageValidation" duration-ms="1315" started-at="2021-07-02T15:40:36 IST" finished-at="2021-07-02T15:40:38 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: -0.000
+              <![CDATA[element click intercepted: Element <div class="xtXmba">...</div> is not clickable at point (97, 145). Other element would receive the click: <div class="_2hriZF _2rbIyg" tabindex="-1">...</div>
   (Session info: chrome=91.0.4472.114)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-1JFAMJF', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b8d5ba93e4bb14de14fe0d176b78720c]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bad62159b4cf288fe7d34414500434dc]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.000
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="xtXmba">...</div> is not clickable at point (97, 145). Other element would receive the click: <div class="_2hriZF _2rbIyg" tabindex="-1">...</div>
   (Session info: chrome=91.0.4472.114)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-1JFAMJF', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b8d5ba93e4bb14de14fe0d176b78720c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bad62159b4cf288fe7d34414500434dc
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -166,52 +124,243 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at com.mven.qa.base.TestBase.initialization(TestBase.java:64)
-at com.mven.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:26)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.mven.qa.pages.LoginPage.babiesToysPageNavigation(LoginPage.java:190)
+at com.mven.qa.testcases.LoginPageTest.babiesToysPageValidation(LoginPageTest.java:122)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateTheSearchBar -->
-        <test-method status="SKIP" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@17579e0f]" name="closeDriver" is-config="true" duration-ms="-1624889129320" started-at="2021-06-28T19:35:29 IST" finished-at="1970-01-01T05:30:00 IST">
+        </test-method> <!-- babiesToysPageValidation -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="closeDriver" is-config="true" duration-ms="596" started-at="2021-07-02T15:40:39 IST" finished-at="2021-07-02T15:40:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="setUp" is-config="true" duration-ms="5176" started-at="2021-07-02T15:40:40 IST" finished-at="2021-07-02T15:40:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="selectProductAndAddToCart()[pri:9, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="selectProductAndAddToCart" duration-ms="1068" started-at="2021-07-02T15:40:45 IST" finished-at="2021-07-02T15:40:46 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <img class="_396cs4 _3exPp9" alt="Mobiles" src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100"> is not clickable at point (363, 100). Other element would receive the click: <div class="_3oBhRa col col-2-5 _4H6HH5">...</div>
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1JFAMJF', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a1721be1a704d20f019f580b3e52131f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img class="_396cs4 _3exPp9" alt="Mobiles" src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100"> is not clickable at point (363, 100). Other element would receive the click: <div class="_3oBhRa col col-2-5 _4H6HH5">...</div>
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1JFAMJF', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a1721be1a704d20f019f580b3e52131f
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.mven.qa.pages.LoginPage.addItemToCart(LoginPage.java:241)
+at com.mven.qa.testcases.LoginPageTest.selectProductAndAddToCart(LoginPageTest.java:129)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductAndAddToCart -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="closeDriver" is-config="true" duration-ms="1420" started-at="2021-07-02T15:40:46 IST" finished-at="2021-07-02T15:40:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="setUp" is-config="true" duration-ms="4650" started-at="2021-07-02T15:40:48 IST" finished-at="2021-07-02T15:40:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="logOffFromAccount()[pri:10, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="logOffFromAccount" duration-ms="43" started-at="2021-07-02T15:40:52 IST" finished-at="2021-07-02T15:40:52 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1JFAMJF', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dade5c1d5f9cce8790dd4d949bb11973]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1JFAMJF', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dade5c1d5f9cce8790dd4d949bb11973
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+at com.mven.qa.pages.LoginPage.logout(LoginPage.java:222)
+at com.mven.qa.testcases.LoginPageTest.logOffFromAccount(LoginPageTest.java:136)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOffFromAccount -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="closeDriver" is-config="true" duration-ms="631" started-at="2021-07-02T15:40:53 IST" finished-at="2021-07-02T15:40:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="setUp" is-config="true" duration-ms="5144" started-at="2021-07-02T15:40:53 IST" finished-at="2021-07-02T15:40:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="productNavigation()[pri:11, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="productNavigation" duration-ms="1175" started-at="2021-07-02T15:40:58 IST" finished-at="2021-07-02T15:40:59 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <img class="_396cs4 _3exPp9" alt="Grocery" src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100"> is not clickable at point (230, 100). Other element would receive the click: <div class="_2hriZF _2rbIyg" tabindex="-1">...</div>
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1JFAMJF', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9cee2091697b093a3f9bc17afef04500]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img class="_396cs4 _3exPp9" alt="Grocery" src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100"> is not clickable at point (230, 100). Other element would receive the click: <div class="_2hriZF _2rbIyg" tabindex="-1">...</div>
+  (Session info: chrome=91.0.4472.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1JFAMJF', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9cee2091697b093a3f9bc17afef04500
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.mven.qa.pages.LoginPage.navigateToGroceryProduct(LoginPage.java:249)
+at com.mven.qa.testcases.LoginPageTest.productNavigation(LoginPageTest.java:141)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productNavigation -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.mven.qa.testcases.LoginPageTest@7a187f14]" name="closeDriver" is-config="true" duration-ms="1288" started-at="2021-07-02T15:41:00 IST" finished-at="2021-07-02T15:41:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- com.mven.qa.testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

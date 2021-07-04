@@ -5,7 +5,7 @@
     <classes>
       <class name="com.mven.qa.testcases.LoginPageTest">
         <methods>
-          <include name="validateTheSearchBar"/>
+          <include name="travelFlightsClick"/>
           <include name="setUp"/>
           <include name="closeDriver"/>
         </methods>
