@@ -3,7 +3,7 @@
 <suite thread-count="3" name="Suite" parallel="classes">
 
  <listeners>
-   <!--  <listener class-name="com.mven.qa.extentreportlistener.ExtentReportListener"/>--> 
+     <listener class-name="com.mven.qa.extentreportlistener.ExtentReportListener"/>
     <listener class-name="com.mven.qa.util.ListenerClass"/>
   
   </listeners>
