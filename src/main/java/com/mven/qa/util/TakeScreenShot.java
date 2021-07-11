@@ -19,7 +19,7 @@ public static void takeScreenshotOnFailure(String fileName) {
     	}catch(IOException e) {
     		e.printStackTrace();
     	}
-     	
+     	System.out.println("testing in branch2");
     }
 
 public static void takeScreenshotOnSuccess(String fileName) {
